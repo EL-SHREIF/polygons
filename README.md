@@ -132,7 +132,6 @@ The output is a comma separated IDs of polygons having the point like
         <th><p align="center">
           List Polygons having more than n points excluding redundant points where n is an integer.The output is a comma separated IDs of polygons like
 2,4,6,10
-
     </th>
   </tr>
   <tr>
@@ -155,7 +154,6 @@ The output is a comma separated IDs of polygons having the point like
           List Polygons having exactly n points excluding redundant points where n is an integer.
 The output is a comma separated IDs of polygons like
 2,4,6,10
-
     </th>
   </tr>
   <tr>
@@ -166,7 +164,6 @@ The output is a comma separated IDs of polygons like
         <th><p align="center">
           List all Points that are in the list of more than n polygons where n is an integer.The output is a comma separated points like
 (3,2),(4,1)
-
     </th>
   </tr>
   <tr>
@@ -187,7 +184,6 @@ The output is a comma separated IDs of polygons like
         <th><p align="center">
           List all Points that are in the list of less than n polygons where n is an integer.The output is a comma separated points like
 (3,2),(4,1)
-
     </th>
   </tr>
   <tr>
@@ -207,6 +203,5 @@ The output is a comma separated IDs of polygons like
         <th><p align="center">
           List all Polygon IDs of polygons that are triangles.The output is a comma separated IDs of polygons like
 2,4,6,10
-
     </th>
   </tr>

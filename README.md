@@ -357,6 +357,7 @@ The output is a comma separated IDs of polygons like
   </tr>
 </table>
 ##Also given a word file of sample input and the expected output 
+---
 ## Table of Contents
 
 #### [Class point]

@@ -19,3 +19,86 @@ Two Connected Polygons are polygons that are intersecting or polygons which have
 <h2>Operations</h2>
 When the program start, the user enters one Polygons Line in the defined above format then followed by one or more operations from the below table (each operation in a line). The program ends when it reads Quit operation.
  
+<h1>FUNCTIONS:</h1>
+<table style="width:100%">
+  <tr>
+       <th><p align="center">
+           Number_Polygons
+        </p>
+    </th>
+        <th><p align="center">
+          Print the number of polygons.
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+           Total_Number_Points
+        </p>
+    </th>
+        <th><p align="center">
+          Print the total number of points in all polygons.
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Minimum_X
+        </p>
+    </th>
+        <th><p align="center">
+         Print the minimum X value of all points.
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Maximum_X
+        </p>
+    </th>
+        <th><p align="center">
+         Print the maximum X value of all points
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Minimum_Y
+        </p>
+    </th>
+        <th><p align="center">
+          Print the minimum Y value of all points.
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Maximum_Y
+        </p>
+    </th>
+        <th><p align="center">
+          Print the maximum Y value of all points
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Enclosing_Rectangle
+        </p>
+    </th>
+        <th><p align="center">
+          Print the minimum Enclosing Rectangle that includes all polygons inside it.
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+           Total_Redundant_Points
+        </p>
+    </th>
+        <th><p align="center">
+          The number of Redundant points in all polygons
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Quit
+        </p>
+    </th>
+        <th><p align="center">
+          End program
+    </th>
+  </tr>

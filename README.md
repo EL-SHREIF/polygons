@@ -102,3 +102,111 @@ When the program start, the user enters one Polygons Line in the defined above f
           End program
     </th>
   </tr>
+ 
+ <tr>
+       <th><p align="center">
+          Polygon_Points n
+        </p>
+    </th>
+        <th><p align="center">
+          List all points of the nth polygon (neglecting redundant points) n start from 1 (1 means the first polygon) output should be in the same format of input polygons string i.e. 
+(1,1),(4,1),(4,2),(1,2)
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Point_Polygons (2,1)
+        </p>
+    </th>
+        <th><p align="center">
+          List all polygons IDs (ID is 1 for the first polygon, 2 for the second polygon,...)  of polygons that have the point (2,1) in their points list 
+The output is a comma separated IDs of polygons having the point like
+2,4,6,10
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          List_Polygons_Points More n
+        </p>
+    </th>
+        <th><p align="center">
+          List Polygons having more than n points excluding redundant points where n is an integer.The output is a comma separated IDs of polygons like
+2,4,6,10
+
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          List_Polygons_Points Less n
+        </p>
+    </th>
+        <th><p align="center">
+         List Polygons having less than n points excluding redundant points where n is an integer.The output is a comma separated IDs of polygons like
+2,4,6,10
+
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          List_Polygons_Points Equal n
+        </p>
+    </th>
+        <th><p align="center">
+          List Polygons having exactly n points excluding redundant points where n is an integer.
+The output is a comma separated IDs of polygons like
+2,4,6,10
+
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          List_Points_Polygons More n
+        </p>
+    </th>
+        <th><p align="center">
+          List all Points that are in the list of more than n polygons where n is an integer.The output is a comma separated points like
+(3,2),(4,1)
+
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          List_Points_Polygons Less n
+        </p>
+    </th>
+        <th><p align="center">
+          List all Points that are in the list of less than n polygons where n is an integer.The output is a comma separated points like
+(3,2),(4,1)
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          List_Points_Polygons Equal n
+        </p>
+    </th>
+        <th><p align="center">
+          List all Points that are in the list of less than n polygons where n is an integer.The output is a comma separated points like
+(3,2),(4,1)
+
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Polygon_Perimeter n
+        </p>
+    </th>
+        <th><p align="center">
+          Print the perimeter of the nth polygon.
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          List_Triangles
+        </p>
+    </th>
+        <th><p align="center">
+          List all Polygon IDs of polygons that are triangles.The output is a comma separated IDs of polygons like
+2,4,6,10
+
+    </th>
+  </tr>

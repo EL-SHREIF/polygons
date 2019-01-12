@@ -205,3 +205,154 @@ The output is a comma separated IDs of polygons like
 2,4,6,10
     </th>
   </tr>
+ <tr>
+       <th><p align="center">
+          List_Rectangles
+        </p>
+    </th>
+        <th><p align="center">
+          List all Polygon IDs of polygons that are rectangles.The output is a comma separated IDs of polygons like
+2,4,6,10
+    </th>
+  </tr>
+   <tr>
+       <th><p align="center">
+          List_Trapezoid
+        </p>
+    </th>
+        <th><p align="center">
+          List all Polygon IDs of polygons that are trapezoid.The output is a comma separated IDs of polygons like
+2,4,6,10
+    </th>
+  </tr>
+   <tr>
+       <th><p align="center">
+          Inside_Rectangle (1,2),(1,5),(6,5),(6,1)
+        </p>
+    </th>
+        <th><p align="center">
+          List all Polygon IDs of polygons that are inside the given rectangle.The output is a comma separated IDs of polygons like
+2,4,6,10
+    </th>
+  </tr>
+   <tr>
+       <th><p align="center">
+          Inside_Circle (1,2),5
+        </p>
+    </th>
+        <th><p align="center">
+          List all Polygon IDs of polygons that are inside the given Circle (Center, radius in the format (1,2),5 ).The output is a comma separated IDs of polygons like
+2,4,6,10
+    </th>
+  </tr>
+   <tr>
+       <th><p align="center">
+          Polygon_Area n
+        </p>
+    </th>
+        <th><p align="center">
+          Print the polygon area of the nth polygon
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+         Polygons_Area_Range minArea,maxArea
+        </p>
+    </th>
+        <th><p align="center">
+          List all Polygon IDs of polygons that have area <= minArea and >=maxArea.The output is a comma separated IDs of polygons like
+2,4,6,10
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Polygons_Enclosing_Point (1,2)
+        </p>
+    </th>
+        <th><p align="center">
+          List all Polygon IDs of polygons that have the point (1,2) inside it (or on its boundaries).The output is a comma separated IDs of polygons like
+2,4,6,10
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Is_Intersecting i,j
+        </p>
+    </th>
+        <th><p align="center">
+          Print TRUE if ith polygon intersects the jth polygon
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Intersecting_Group 3,5,6
+        </p>
+    </th>
+        <th><p align="center">
+          Print TRUE if the list of polygon are all intersecting with each other (each one is intersecting with all other polygons)
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Largest_Intersecting_Pair
+        </p>
+    </th>
+        <th><p align="center">
+         Print the two IDs of polygons that are intersecting and having the largest sum of area.The output is a comma separated IDs of polygons like 2,4
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+         Largest_Rectangle_Inside n
+        </p>
+    </th>
+        <th><p align="center">
+         Print the largest rectangle that can inside the nth polygon.output should be in the same format of input polygons string i.e. 
+(1,1),(4,1),(4,2),(1,2)
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Largest_Circle_Inside n
+        </p>
+    </th>
+        <th><p align="center">
+          Print the largest circle that can inside the nth polygon.
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Is_Connected i,j
+        </p>
+    </th>
+        <th><p align="center">
+          Print TRUE if ith polygon is connected to the jth polygon
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Is_Connected_Group 1,2,5
+        </p>
+    </th>
+        <th><p align="center">
+          Print TRUE if all polygon in the list are connected.
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+          Maximum_Intersecting_Group
+        </p>
+    </th>
+        <th><p align="center">
+          List polygon IDs forming the largest set of polygons that are intersecting (any ID should intersect with All other IDs in the list)
+    </th>
+  </tr>
+  <tr>
+       <th><p align="center">
+         Maximum_Connected_Group
+        </p>
+    </th>
+        <th><p align="center">
+          List polygon IDs forming the largest set of polygons that are connected directly or indirectly (through another polygon)
+    </th>
+  </tr>

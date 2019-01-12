@@ -356,8 +356,6 @@ The output is a comma separated IDs of polygons like
     </th>
   </tr>
 </table>
-##Also given a word file of sample input and the expected output 
----
 ## Table of Contents
 
 #### [Class point]
@@ -369,3 +367,5 @@ The output is a comma separated IDs of polygons like
 #### [MAIN]
  - **Summary:** it deals with the user to take input and call the functions and return the output to print it .
  - **Keywords:** Consol application
+ 
+###[Also given a word file of sample input and the expected output ]

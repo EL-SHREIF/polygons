@@ -142,7 +142,6 @@ The output is a comma separated IDs of polygons having the point like
         <th><p align="center">
          List Polygons having less than n points excluding redundant points where n is an integer.The output is a comma separated IDs of polygons like
 2,4,6,10
-
     </th>
   </tr>
   <tr>
@@ -356,3 +355,16 @@ The output is a comma separated IDs of polygons like
           List polygon IDs forming the largest set of polygons that are connected directly or indirectly (through another polygon)
     </th>
   </tr>
+</table>
+##Also given a word file of sample input and the expected output 
+## Table of Contents
+
+#### [Class point]
+ - **Summary:** simple class of a point and some functions doing on it .
+ 
+#### [Class Polygon]
+ - **Summary:** a polygon made from some points with some functions on it.
+ 
+#### [MAIN]
+ - **Summary:** it deals with the user to take input and call the functions and return the output to print it .
+ - **Keywords:** Consol application
